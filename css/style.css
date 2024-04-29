@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    text-decoration: none;
+    background-color: #E3DDD7;
+
+    overflow-x: hidden;
+    margin: auto;
+    
+}
+header {
+    font-size: 12px;
+    padding: 5px 70px;
+    background-color: rgba(255, 255, 255, 0.846);
+}
+
+.cabecalho h1 {
+    margin: auto;
+    font-family: 'Bailey';
+    font-weight: lighter;
+    font-size: 180px;
+}
+
+h2 {
+    font-family: 'Lagency', sans-serif;
+    font-weight: lighter;
+}
+.cabecalho h2:hover {
+    color: #E3DDD7;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+}
+
+/* MAIN */
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img03 {
+    background-image: url('../imagens/IMG_3238.jpg');
+    background-position: right center;
+    width: 1920px;
+    height: 500px;
+}
