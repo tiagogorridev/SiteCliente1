@@ -42,17 +42,15 @@ img {
 
 /* MAIN */
 
-section.imagem {
+.img-main {
+    background-image: url(../imagens/IMG_3238.jpg);
+    width: 1920px;
+    height: 500px;
     background-color: rgba(0, 0, 0, 0.616);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
     background-size: cover;
-    background-attachment: fixed;
-}
-
-section#img03 {
-    background-image: url('../imagens/IMG_3238.jpg');
     background-position: right center;
-    width: 1920px;
-    height: 500px;
+
+    background-attachment: fixed;
 }
