@@ -1,16 +1,21 @@
 body {
     text-align: center;
     text-decoration: none;
-    background-color: #E3DDD7;
+    background-color: #FFFFFF;
 
     overflow-x: hidden;
-    margin: auto;
-    
+    margin: auto;    
 }
+
+/* HEADER */
+
 header {
     font-size: 12px;
     padding: 5px 70px;
-    background-color: rgba(255, 255, 255, 0.846);
+    background-color: #FFFFFF;
+    box-shadow: black;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.512);
 }
 
 .cabecalho h1 {
@@ -24,8 +29,14 @@ h2 {
     font-family: 'Lagency', sans-serif;
     font-weight: lighter;
 }
-.cabecalho h2:hover {
-    color: #E3DDD7;
+
+h2 a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: black;
+}
+   
+.cabecalho h2:hover, h2 a:hover {
+    color: #E3DBD7;
 }
 
 .cabecalho {
@@ -37,20 +48,16 @@ h2 {
 }
 
 img {
-    width: 250px;
+    width: 150px;
 }
 
 /* MAIN */
 
-.img-main {
-    background-image: url(../imagens/IMG_3238.jpg);
+section#img01 {
+    background-image: url(../imagens/bruna1.jpg);
+    background-position: right center;
     width: 1920px;
     height: 500px;
-    background-color: rgba(0, 0, 0, 0.616);
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
     background-size: cover;
-    background-position: right center;
-
     background-attachment: fixed;
 }
