@@ -101,7 +101,7 @@ section#img01 {
 }
 
 /* SOBRE E FUNCIONAMENTO */
-.sobre, .funcionamento {
+.sobre {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,6 +115,14 @@ section#img01 {
     justify-content: left;
     flex-direction: column;
     float: left;
+}
+
+.funcionamento{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 15%;
 }
 
 .sobre-informacoes-1, .funcionamento-informacoes {
