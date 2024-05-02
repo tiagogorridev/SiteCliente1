@@ -54,6 +54,7 @@ img {
     font-size: 17px;
     font-family: 'Lagency', sans-serif;
     background-color: #F190A3;
+    margin-top: 1%;
 }
 
 .botao:hover {
@@ -80,6 +81,7 @@ section#img01 {
 /* TITULOS */
 #titulo-online, #titulo-especialidades, #sobre-titulo, #funcionamento-titulo {
     font-size: 40px;
+    margin-top: 5%;
 }
 
 /* PARARAFOS */
@@ -140,6 +142,10 @@ section#img01 {
     height: 500px;
     border-radius: 10px;
     justify-content: left;
+}
+
+.agendar{
+    margin-top: 15%;
 }
 
 .especialidades {
