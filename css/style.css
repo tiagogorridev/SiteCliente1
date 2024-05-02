@@ -81,7 +81,7 @@ section#img01 {
 /* TITULOS */
 #titulo-online, #titulo-especialidades, #sobre-titulo, #funcionamento-titulo {
     font-size: 40px;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 /* PARARAFOS */
@@ -154,20 +154,20 @@ section#img01 {
     justify-content: space-between;
   }
   
-  .especialidades.item {
+.especialidades.item {
     flex: 1 0 30%;
     margin-bottom: 20px;
     flex-direction: column;
   }
   
-  .especialidades.item img {
+.especialidades.item img {
     width: 100%;
     height: auto;
     margin: 20%;
   }
   
-  .especialidades.item h1,
-  .especialidades.item p {
+.especialidades.item h1,
+.especialidades.item p {
     margin: 20%; 
   }
 
