@@ -107,7 +107,6 @@ section#img01 {
     align-items: end;
     justify-content: left;
     flex-direction: column;
-    float: left;
     text-align: end;
 }
 
