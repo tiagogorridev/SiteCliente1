@@ -1,42 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* BODY */
 body {
-    font-size: 12px;
+    font-size: 17px;
     text-align: center;
     text-decoration: none;
     background-color: #FFFFFF;
 
     overflow-x: hidden;
-    margin: auto;    
+    margin: 0px;
+    padding: 0px;
+    color: #3D4852;
+    font-family: "Poppins", sans-serif;
 }
+
+/* ------------------ */
 
 
 /* HEADER */
-h2 {
-    font-family: 'Lagency', sans-serif;
-    font-weight: lighter;
-}
-
-h2 a {
-    text-decoration: none; /* Remove o sublinhado */
-    color: black;
-}
-   
-.cabecalho h2:hover, h2 a:hover {
-    color: #E3DBD7;
-}
-
 .cabecalho {
     display: flex;
     gap: 100px;
     align-items: center;
-    margin: auto;
+    margin-left: 300px;
     justify-content: center;
+    
 }
 
+.cabecalho h2:hover, h2 a:hover {
+    color: #E3DBD7;
+}
+
+/* TEXTOS */
+h2 a {
+    font-family: 'Lagency', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #3D4852;
+}
+
+/* IMAGEM */
 img {
     width: 150px;
 }
 
+/* BOTAO */
+.botao {
+    border: solid 20px #F190A3;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: 'Lagency', sans-serif;
+    background-color: #F190A3;
+}
+
+.botao:hover {
+    background-color: #F190A3;
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+/* ------------------ */
+
+
 /* MAIN */
+
+/* IMAGEM */
 section#img01 {
     background-image: url(../imagens/bruna1.jpg);
     background-position: right center;
@@ -46,14 +77,78 @@ section#img01 {
     background-attachment: fixed;
 }
 
-/*FOOTER*/
-#copyright {
-    font-size: 15px;
-    padding: 5px;
-    
-    border-radius: 5px;
-    width: fit-content;
-    display: inline-block;
-    background-color: #F190A3;
+/* TITULOS */
+#titulo-online, #titulo-especialidades, #sobre-titulo, #funcionamento-titulo {
+    font-size: 40px;
 }
+
+/* PARARAFOS */
+.paragrafo-online, .paragrafo-especialidades {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+/* IMAGEM */
+.imagens-especialidades {
+    width: 350px;
+    height: 230px;
+    padding: 20px;
+    transition: 1s ease;
+}
+
+.imagens-especialidades:hover {
+    transform: scale(1.2);
+}
+
+/* SOBRE E FUNCIONAMENTO */
+.sobre, .funcionamento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.sobre-informacoes-1, .funcionamento-informacoes {
+    font-size: 27px;
+    font-weight: bolder;
+    color: #B99496;
+}
+
+.sobre-informacoes-2 {
+    font-weight: 200;
+    color: #BC999A;
+}
+
+#sobre-imagem {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+}
+
+.img-agendar {
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    justify-content: left;
+}
+
+
+/* ------------------ */
+
+
+/*FOOTER*/
+
+footer {
+    color: white;
+    padding: 10px;
+    background-color: #B99496;
+    height: 400px;
+
+}
+
+.img-rodape {
+    width: 40px;
+    height: 40px;
+}
+
   
