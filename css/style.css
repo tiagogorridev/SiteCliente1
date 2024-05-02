@@ -142,6 +142,28 @@ section#img01 {
     justify-content: left;
 }
 
+.especialidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .especialidades.item {
+    flex: 1 0 30%;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  
+  .especialidades.item img {
+    width: 100%;
+    height: auto;
+    margin: 20%;
+  }
+  
+  .especialidades.item h1,
+  .especialidades.item p {
+    margin: 20%; 
+  }
 
 /* ------------------ */
 
