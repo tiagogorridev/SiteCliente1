@@ -101,20 +101,14 @@ section#img01 {
 }
 
 /* SOBRE E FUNCIONAMENTO */
-.sobre {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-right: 20px;
-}
 
 .sobre{
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: left;
     flex-direction: column;
     float: left;
+    text-align: end;
 }
 
 .funcionamento{
