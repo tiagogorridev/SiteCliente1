@@ -15,6 +15,7 @@ body {
     padding: 0px;
     color: #3D4852;
     font-family: "Poppins", sans-serif;
+
 }
 
 /* ------------------ */
@@ -77,7 +78,6 @@ section#img01 {
     background-size: cover;
     background-attachment: fixed;
 }
-
 /* TITULOS */
 #titulo-online, #titulo-especialidades, #sobre-titulo, #funcionamento-titulo {
     font-size: 40px;
@@ -96,6 +96,7 @@ section#img01 {
     height: 230px;
     padding: 20px;
     transition: 1s ease;
+    border-radius: 27px;
 }
 
 .imagens-especialidades:hover {
@@ -132,14 +133,14 @@ section#img01 {
 }
 
 #sobre-imagem {
-    width: 360px;
-    height: 360px;
+    width: 380px;
+    height: 400px;
     border-radius: 50%;
 }
 
 .img-agendar {
     width: 300px;
-    height: 500px;
+    height: 550px;
     border-radius: 10px;
     justify-content: left;
 }
@@ -171,6 +172,7 @@ section#img01 {
     margin: 20%; 
   }
 
+
 /* ------------------ */
 
 
@@ -187,4 +189,13 @@ footer {
 .img-rodape {
     width: 40px;
     height: 40px;
+}
+
+.rodape h1 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.rodape h3 {
+    font-weight: lighter;
 }
