@@ -157,6 +157,8 @@ section#img01 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   
 .especialidades.item {
