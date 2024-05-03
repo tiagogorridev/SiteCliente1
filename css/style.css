@@ -78,7 +78,6 @@ img {
 section#img01 {
     background-image: url(../imagens/bruna1.jpg);
     background-position: right center;
-    width: 1920px;
     height: 500px;
     background-size: cover;
     background-attachment: fixed;
