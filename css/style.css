@@ -191,12 +191,12 @@ section#img01 {
 .especialidades.item img {
     width: 100%;
     height: auto;
-    margin: 20%;
+    margin: 10%;
   }
   
 .especialidades.item h1,
 .especialidades.item p {
-    margin: 20%; 
+    margin: 10%; 
   }
 
   blockquote {
