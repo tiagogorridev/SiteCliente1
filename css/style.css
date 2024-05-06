@@ -103,6 +103,27 @@ section#img01 {
     border-radius: 27px;
 }
 
+.circulo {
+    position: absolute;
+    bottom: -1000px;
+    right: -450px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: #BC999A;
+}
+
+.circulo2 {
+    position: absolute;
+    bottom: -4300px;
+    left: -450px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: #BC999A;
+}
+
+
 .imagens-especialidades:hover {
     transform: scale(1.2);
 }
@@ -182,9 +203,9 @@ section#img01 {
     margin-left: 20%;
     margin-right: 20%;
     padding: 25px;
-    border: solid thick #F190A3;
-    border-radius: 1em;
-    box-shadow: #B99496 1em 1em 0.8em;
+    border: solid thick #f190a3aa;
+    border-radius: 0.6em;
+    box-shadow: #B99496 0.6em 0.6em 0.6em;
     background-color: #F2F2F2;
 }
 
