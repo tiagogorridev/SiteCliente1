@@ -1,0 +1,43 @@
+h1{
+    margin: 5%;
+    text-align: center;
+}
+p{
+    margin: 1% 15% 5% 15%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+blockquote {
+    margin: 5% 15% 5% 15%;
+    padding: 25px;
+    border: solid thick #f190a3aa;
+    border-radius: 0.6em;
+    box-shadow: #B99496 0.6em 0.6em 0.6em;
+    background-color: #F2F2F2;
+}
+.circulo {
+    position: absolute;
+    bottom: 100px;
+    right: -450px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: #BC999A;
+}
+.circulo2 {
+    position: absolute;
+    bottom: -300px;
+    left: -450px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: #BC999A;
+}
+.agendar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.imagens-especialidades {
+    margin: 5% 15% 5% 15%;
+}
